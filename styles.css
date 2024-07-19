@@ -41,7 +41,13 @@ body {
 
 #tag {
     width: 30vw;
-    padding: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#tag-text {
+    margin: 11vh 5vw 0 -3vw;
 }
 
 #tag h2 {
@@ -72,8 +78,41 @@ body {
     cursor: pointer;
 }
 
+/* #arrow {
+    font-size: 2vw;
+    font-weight: 200;
+} */
+
+#carousel-arrows {
+    display: flex;
+    width: 12vw;
+    /* margin-top: 5vh; */
+    margin-left: -9vmax;
+    justify-items: flex-start;
+}
+
+.arrow-box {
+    background-color: hsl(0, 0%, 0%);
+    width: 6vw;
+    height: 10vh;
+    padding-left: .5vw;
+}
+
+.arrow-box:hover {
+    background-color: hsl(0, 0%, 27%);
+    cursor: pointer;
+}
+
+.arrow-box img {
+    margin: 3vh 2vw;
+    width: 1.2vw;
+    height: 2vw;
+}
+
 #row2 {
     display: flex;
+    /* margin-top: -4vh; */
+    height: 30vh;
 }
 
 #about {
