@@ -23,6 +23,7 @@ body {
 
 #menu span, #logo {
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 #logo {
@@ -32,6 +33,10 @@ body {
 
 #menu span {
     margin-right: 2vw;
+}
+
+#menu span:hover {
+    text-decoration: underline;
 }
 
 #tag {
@@ -48,6 +53,7 @@ body {
     font-size: 1.1vw;
     line-height: 1.4;
     font-weight: 300;
+    color: hsl(0, 0%, 27%);
 }
 
 #shop-now {
@@ -59,6 +65,11 @@ body {
     margin-right: 2vw;
     letter-spacing: 1vw;
     font-weight: 600;
+}
+
+#shop-now p:hover {
+    color: hsl(0, 0%, 63%);
+    cursor: pointer;
 }
 
 #row2 {
@@ -77,4 +88,5 @@ body {
     font-size: 1.1vw;
     line-height: 1.4;
     font-weight: 300;
+    color: hsl(0, 0%, 27%);
 }
