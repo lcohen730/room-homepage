@@ -74,7 +74,8 @@ body {
 }
 
 #shop-now p:hover {
-    color: hsl(0, 0%, 63%);
+    /* color: hsl(0, 0%, 63%); */
+    opacity: .63;
     cursor: pointer;
 }
 
